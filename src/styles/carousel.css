@@ -1,0 +1,333 @@
+.carousel__stage {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.carousel__arrow {
+  display: flex;
+  flex: none;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  /* centred against the 320px card, not the shadow gutter below it */
+  margin-top: 130px;
+  border: 1px solid var(--line);
+  border-radius: 50%;
+  background: var(--white);
+  transition:
+    background-color 0.2s var(--ease),
+    border-color 0.2s var(--ease),
+    color 0.2s var(--ease);
+}
+
+.carousel__arrow:hover {
+  border-color: var(--ink);
+  background: var(--ink);
+  color: var(--white);
+}
+
+.carousel__track {
+  display: flex;
+  flex: 1;
+  gap: 60px;
+  min-width: 0;
+  /* room for the lifted card and its shadow, which the scroll container would otherwise clip */
+  margin-top: -12px;
+  padding-block: 12px 70px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scrollbar-width: none;
+  overscroll-behavior-x: contain;
+  cursor: grab;
+  user-select: none;
+}
+
+.carousel__track::-webkit-scrollbar {
+  display: none;
+}
+
+.carousel__track:active {
+  cursor: grabbing;
+}
+
+.carousel__slide {
+  display: flex;
+  flex: 0 0 100%;
+  min-width: 0;
+  scroll-snap-align: start;
+}
+
+.carousel__pagination {
+  display: none;
+}
+
+/* ---------- Project card ---------- */
+
+.project-card {
+  --card-base: var(--white);
+  --card-shade: rgb(230 240 251 / 0.6);
+  --card-shade-end: rgb(230 240 251 / 0);
+  --card-border: var(--line);
+  --card-title: var(--ink);
+  --card-accent: var(--blue-deep);
+  --card-text: var(--text);
+  --card-soft: var(--muted);
+  --card-caption: var(--muted);
+  --card-link: var(--ink);
+
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-height: 320px;
+  overflow: hidden;
+  border-radius: 18px;
+  background:
+    linear-gradient(84.23deg, var(--card-shade) 1.1%, var(--card-shade-end) 103.6%),
+    var(--card-base);
+  box-shadow: 0 18px 50px rgb(17 17 17 / 0.07);
+  transition:
+    translate 0.35s var(--ease),
+    box-shadow 0.35s var(--ease);
+}
+
+@media (hover: hover) {
+  .project-card:hover {
+    box-shadow: 0 26px 56px rgb(17 17 17 / 0.16);
+    translate: 0 -8px;
+  }
+}
+
+.project-card--osu {
+  --card-base: #2b1716;
+  --card-shade: rgb(22 10 10 / 0.6);
+  --card-shade-end: rgb(22 10 10 / 0);
+  --card-border: #ffe596;
+  --card-title: #ffe596;
+  --card-accent: #f79bb4;
+  --card-text: #fff6e6;
+  --card-soft: #c9bab6;
+  --card-caption: #fdf4ed;
+  --card-link: #ffe596;
+}
+
+.project-card--osu .tag {
+  border-color: #f08fa9;
+  background: #3a1f20;
+  color: #ffd3dd;
+}
+
+.project-card--chumai {
+  --card-base: #33334d;
+  --card-shade: rgb(29 25 38 / 0.6);
+  --card-shade-end: rgb(29 25 38 / 0);
+  --card-border: #ffe0a2;
+  --card-title: #ffde9e;
+  --card-accent: #fe8e8e;
+  --card-text: #fffaeb;
+  --card-soft: #bfbfbf;
+  --card-caption: #fdf4ed;
+  --card-link: #ffde9e;
+}
+
+.project-card--chumai .tag {
+  border-color: #5c6ec8;
+  background: #232239;
+  color: #c0d6ff;
+}
+
+.project-card--housing .tag {
+  border-color: var(--blue);
+  background: var(--blue-soft);
+  color: var(--blue-deep);
+}
+
+.project-card__media {
+  display: flex;
+  flex: 0 0 55.56%;
+  flex-direction: column;
+  gap: 20px;
+  min-width: 0;
+  padding: 30px;
+}
+
+.project-card__image {
+  position: relative;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  border: 1px solid var(--card-border);
+  border-radius: 5px;
+}
+
+.project-card__image img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.project-card__caption {
+  color: var(--card-caption);
+  font-size: 12px;
+}
+
+.project-card__details {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 24px;
+  min-width: 0;
+  padding: 30px;
+}
+
+.project-card__heading {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.project-card__meta,
+.project-card__footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.project-card__meta .mono {
+  color: var(--card-soft);
+  font-size: 11px;
+}
+
+.project-card__heading h3 {
+  color: var(--card-title);
+  font-size: clamp(24px, 2.6vw, 34px);
+  font-weight: 600;
+  line-height: 1.08;
+}
+
+.project-card__heading em {
+  color: var(--card-accent);
+  font-style: normal;
+}
+
+.project-card__heading p {
+  color: var(--card-text);
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.project-card__footer {
+  flex-wrap: wrap;
+}
+
+.project-card__footer .mono {
+  color: var(--card-soft);
+  font-size: 10px;
+}
+
+.project-card__footer .text-link {
+  color: var(--card-link);
+}
+
+/* the whole card opens the project */
+.project-card__footer .text-link::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+}
+
+.project-card:hover .text-link .icon {
+  transform: translate(2px, -2px);
+}
+
+/* ---------- Compact: free-scrolling cards with pagination ---------- */
+
+@media (max-width: 899px) {
+  .carousel__arrow {
+    display: none;
+  }
+
+  .carousel__track {
+    gap: 12px;
+    margin-right: calc(var(--gutter) * -1);
+    padding: 12px var(--gutter) 24px 0;
+    cursor: auto;
+  }
+
+  .carousel__slide {
+    flex: none;
+    width: min(310px, 82vw);
+  }
+
+  .carousel__pagination {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--muted);
+    font-size: 11px;
+  }
+
+  .carousel__dots {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .carousel__dots button {
+    position: relative;
+    width: 6px;
+    height: 6px;
+    border-radius: 999px;
+    background: var(--line);
+    transition:
+      width 0.25s var(--ease),
+      background-color 0.25s var(--ease);
+  }
+
+  /* larger touch target than the 6px dot */
+  .carousel__dots button::after {
+    content: '';
+    position: absolute;
+    inset: -12px -3px;
+  }
+
+  .carousel__dots button.is-active {
+    width: 18px;
+    background: var(--ink);
+  }
+
+  .project-card {
+    flex-direction: column;
+    min-height: 444px;
+    border-radius: 14px;
+  }
+
+  .project-card__media {
+    flex: none;
+    gap: 12px;
+    padding: 16px 16px 12px;
+  }
+
+  .project-card__image {
+    flex: none;
+    aspect-ratio: 278 / 111;
+  }
+
+  .project-card__details {
+    padding: 4px 16px 20px;
+  }
+
+  .project-card__heading h3 {
+    font-size: 26px;
+  }
+
+  .project-card__footer {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}

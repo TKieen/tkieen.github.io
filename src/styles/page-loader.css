@@ -1,0 +1,78 @@
+/* Full-screen cover between the home page and the portfolio page. */
+.page-loader {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 22px;
+  background: var(--paper);
+  transition: opacity 0.4s var(--ease);
+}
+
+.page-loader.is-leaving {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* loading circle: a rippling ring that draws itself while it turns, around the wordmark square */
+.page-loader__ring {
+  width: 72px;
+  height: 72px;
+  overflow: visible;
+  fill: none;
+}
+
+.page-loader__track {
+  stroke: var(--line);
+  stroke-width: 1;
+}
+
+.page-loader__wave {
+  stroke: var(--ink);
+  stroke-width: 1.6;
+  stroke-linecap: round;
+  stroke-dasharray: 100;
+  animation:
+    page-loader-draw ease-in-out both,
+    page-loader-turn 2.4s linear infinite;
+}
+
+.page-loader__mark {
+  fill: var(--blue);
+  animation: page-loader-mark 0.8s ease-in-out infinite alternate;
+}
+
+.page-loader__label {
+  display: flex;
+  gap: 10px;
+  color: var(--muted);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.page-loader__label span {
+  color: var(--blue-deep);
+}
+
+@keyframes page-loader-draw {
+  from {
+    stroke-dashoffset: 100;
+  }
+}
+
+@keyframes page-loader-turn {
+  to {
+    rotate: 360deg;
+  }
+}
+
+@keyframes page-loader-mark {
+  to {
+    rotate: 45deg;
+    scale: 0.7;
+  }
+}

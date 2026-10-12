@@ -1,0 +1,854 @@
+{
+ "vnoc-2025": [
+  {
+   "id": "QOTd700",
+   "ext": "png",
+   "caption": "osu! forum post",
+   "width": 1200,
+   "height": 3000,
+   "x": 114,
+   "y": 28,
+   "w": 200,
+   "h": 500
+  },
+  {
+   "id": "SnjMgDm",
+   "ext": "png",
+   "caption": "Facebook post #1",
+   "width": 1500,
+   "height": 1500,
+   "x": 328,
+   "y": 238,
+   "w": 160,
+   "h": 160
+  },
+  {
+   "id": "ksQu0VC",
+   "ext": "png",
+   "caption": "Facebook post #2 (Current match)",
+   "width": 1500,
+   "height": 1500,
+   "x": 328,
+   "y": 412,
+   "w": 180,
+   "h": 180
+  },
+  {
+   "id": "X0D6Vzr",
+   "ext": "png",
+   "caption": "Facebook post #3 (Advertise custom-made tshirt)",
+   "width": 1500,
+   "height": 1500,
+   "x": 522,
+   "y": 412,
+   "w": 180,
+   "h": 180
+  },
+  {
+   "id": "jRTukKl",
+   "ext": "png",
+   "caption": "Facebook post #4 (Advertise custom-made song)",
+   "width": 1500,
+   "height": 1500,
+   "x": 328,
+   "y": 606,
+   "w": 138,
+   "h": 138
+  },
+  {
+   "id": "7oJbQDg",
+   "ext": "png",
+   "caption": "Facebook post #5 (Upcoming match)",
+   "width": 1500,
+   "height": 1500,
+   "x": 480,
+   "y": 606,
+   "w": 138,
+   "h": 138
+  },
+  {
+   "id": "LUxoTaN",
+   "ext": "png",
+   "caption": "Facebook post #6 (Final podium)",
+   "width": 1500,
+   "height": 1500,
+   "x": 164,
+   "y": 542,
+   "w": 150,
+   "h": 150
+  },
+  {
+   "id": "Z3ZbzEp",
+   "ext": "png",
+   "caption": "Custom map banner",
+   "width": 1000,
+   "height": 400,
+   "x": 328,
+   "y": 72,
+   "w": 380,
+   "h": 152
+  },
+  {
+   "id": "Wal5YNN",
+   "ext": "jpeg",
+   "caption": "Custom-made tshirt design",
+   "width": 3000,
+   "height": 2000,
+   "x": 502,
+   "y": 238,
+   "w": 240,
+   "h": 160
+  }
+ ],
+ "vncc-2025": [
+  {
+   "id": "JaTj0N8",
+   "ext": "png",
+   "caption": "Main Banner",
+   "width": 2400,
+   "height": 1256,
+   "x": 347,
+   "y": 72,
+   "w": 329,
+   "h": 172
+  },
+  {
+   "id": "xGmvEGI",
+   "ext": "png",
+   "caption": "Facebook Post #1",
+   "width": 1500,
+   "height": 1500,
+   "x": 347,
+   "y": 382,
+   "w": 119,
+   "h": 119
+  },
+  {
+   "id": "GsSfUvf",
+   "ext": "png",
+   "caption": "Facebook Post #2",
+   "width": 1500,
+   "height": 1500,
+   "x": 480,
+   "y": 382,
+   "w": 119,
+   "h": 119
+  },
+  {
+   "id": "KKI73as",
+   "ext": "png",
+   "caption": "Facebook Post #3",
+   "width": 1500,
+   "height": 1500,
+   "x": 613,
+   "y": 382,
+   "w": 119,
+   "h": 119
+  },
+  {
+   "id": "dZI3o3t",
+   "ext": "png",
+   "caption": "Facebook Post #4",
+   "width": 1500,
+   "height": 1500,
+   "x": 199,
+   "y": 610,
+   "w": 134,
+   "h": 134
+  },
+  {
+   "id": "hV8RwvM",
+   "ext": "png",
+   "caption": "Banner Design for Kiosk LED",
+   "width": 1890,
+   "height": 3360,
+   "x": 107,
+   "y": 28,
+   "w": 226,
+   "h": 401
+  },
+  {
+   "id": "lEGBQy5",
+   "ext": "png",
+   "caption": "Starting Soon",
+   "width": 1920,
+   "height": 1080,
+   "x": 347,
+   "y": 258,
+   "w": 196,
+   "h": 110
+  },
+  {
+   "id": "M99WVT1",
+   "ext": "png",
+   "caption": "Gameplay",
+   "width": 1920,
+   "height": 1080,
+   "x": 557,
+   "y": 258,
+   "w": 196,
+   "h": 110
+  },
+  {
+   "id": "H7uNO3D",
+   "ext": "png",
+   "caption": "Map Pick",
+   "width": 1920,
+   "height": 1080,
+   "x": 347,
+   "y": 515,
+   "w": 178,
+   "h": 100
+  },
+  {
+   "id": "WWmRiCx",
+   "ext": "png",
+   "caption": "Be Right Back",
+   "width": 1920,
+   "height": 1080,
+   "x": 539,
+   "y": 515,
+   "w": 178,
+   "h": 100
+  },
+  {
+   "id": "DpbWOQD",
+   "ext": "png",
+   "caption": "Technical Issues",
+   "width": 1920,
+   "height": 1080,
+   "x": 347,
+   "y": 629,
+   "w": 196,
+   "h": 110
+  },
+  {
+   "id": "KKm8vWt",
+   "ext": "png",
+   "caption": "Ending",
+   "width": 1920,
+   "height": 1080,
+   "x": 557,
+   "y": 629,
+   "w": 196,
+   "h": 110
+  },
+  {
+   "id": "KVLOQHU",
+   "ext": "png",
+   "caption": "Staff Card Back",
+   "width": 1760,
+   "height": 2500,
+   "x": 103,
+   "y": 443,
+   "w": 108,
+   "h": 153
+  },
+  {
+   "id": "YZU1RJD",
+   "ext": "png",
+   "caption": "Staff Card Front",
+   "width": 1760,
+   "height": 2500,
+   "x": 225,
+   "y": 443,
+   "w": 108,
+   "h": 153
+  }
+ ],
+ "dkh": [
+  {
+   "id": "jIZlxsJ",
+   "ext": "png",
+   "caption": "Banner",
+   "width": 1200,
+   "height": 420,
+   "x": 300,
+   "y": 133,
+   "w": 483,
+   "h": 169
+  },
+  {
+   "id": "GujU2Dy",
+   "ext": "png",
+   "caption": "Custom logo",
+   "width": 1092,
+   "height": 849,
+   "x": 53,
+   "y": 89,
+   "w": 233,
+   "h": 181
+  },
+  {
+   "id": "qfe6NVj",
+   "ext": "png",
+   "caption": "Icon set for tournament ruleset",
+   "width": 9043,
+   "height": 2999,
+   "x": 300,
+   "y": 474,
+   "w": 455,
+   "h": 151
+  },
+  {
+   "id": "WL7nbZt",
+   "ext": "png",
+   "caption": "Starting Soon",
+   "width": 1920,
+   "height": 1080,
+   "x": 300,
+   "y": 316,
+   "w": 256,
+   "h": 144
+  },
+  {
+   "id": "EeD61Gg",
+   "ext": "png",
+   "caption": "Technical Issues",
+   "width": 1920,
+   "height": 1080,
+   "x": 570,
+   "y": 316,
+   "w": 256,
+   "h": 144
+  },
+  {
+   "id": "leCxvub",
+   "ext": "png",
+   "caption": "Ending",
+   "width": 1920,
+   "height": 1080,
+   "x": 30,
+   "y": 539,
+   "w": 256,
+   "h": 144
+  },
+  {
+   "id": "vBndECm",
+   "ext": "png",
+   "caption": "Final Podium",
+   "width": 1000,
+   "height": 1000,
+   "x": 45,
+   "y": 284,
+   "w": 241,
+   "h": 241
+  }
+ ],
+ "vncc-2024": [
+  {
+   "id": "g7KlePr",
+   "ext": "png",
+   "caption": "Main Banner",
+   "width": 2400,
+   "height": 1110,
+   "x": 317,
+   "y": 72,
+   "w": 432,
+   "h": 200
+  },
+  {
+   "id": "6hrFb4t",
+   "ext": "png",
+   "caption": "Facebook Post #1",
+   "width": 1000,
+   "height": 1000,
+   "x": 67,
+   "y": 28,
+   "w": 236,
+   "h": 236
+  },
+  {
+   "id": "zYUVO50",
+   "ext": "png",
+   "caption": "Facebook Post #2",
+   "width": 1000,
+   "height": 1000,
+   "x": 91,
+   "y": 439,
+   "w": 212,
+   "h": 212
+  },
+  {
+   "id": "lkfN1rF",
+   "ext": "png",
+   "caption": "Facebook Post #3",
+   "width": 1000,
+   "height": 1000,
+   "x": 317,
+   "y": 436,
+   "w": 153,
+   "h": 153
+  },
+  {
+   "id": "99crfM3",
+   "ext": "png",
+   "caption": "Starting Soon",
+   "width": 1920,
+   "height": 1080,
+   "x": 42,
+   "y": 278,
+   "w": 261,
+   "h": 147
+  },
+  {
+   "id": "SQ3TYBI",
+   "ext": "png",
+   "caption": "Be Right Back",
+   "width": 1920,
+   "height": 1080,
+   "x": 317,
+   "y": 286,
+   "w": 242,
+   "h": 136
+  },
+  {
+   "id": "MwuFL7V",
+   "ext": "png",
+   "caption": "Gameplay",
+   "width": 1920,
+   "height": 1080,
+   "x": 573,
+   "y": 286,
+   "w": 242,
+   "h": 136
+  },
+  {
+   "id": "RRnW4SX",
+   "ext": "png",
+   "caption": "Technical Issues",
+   "width": 1920,
+   "height": 1080,
+   "x": 484,
+   "y": 436,
+   "w": 272,
+   "h": 153
+  },
+  {
+   "id": "tlGD1x4",
+   "ext": "png",
+   "caption": "Ending",
+   "width": 1920,
+   "height": 1080,
+   "x": 317,
+   "y": 603,
+   "w": 251,
+   "h": 141
+  }
+ ],
+ "vnoc-2024": [
+  {
+   "id": "urclzWJ",
+   "ext": "png",
+   "caption": "Banner",
+   "width": 2400,
+   "height": 840,
+   "x": 357,
+   "y": 112,
+   "w": 471,
+   "h": 165
+  },
+  {
+   "id": "2MfjkuX",
+   "ext": "png",
+   "caption": "Youtube Thumbnail",
+   "width": 1280,
+   "height": 720,
+   "x": 28,
+   "y": 68,
+   "w": 315,
+   "h": 177
+  },
+  {
+   "id": "ElLcaBB",
+   "ext": "png",
+   "caption": "Starting Soon Screen (base)",
+   "width": 1920,
+   "height": 1080,
+   "x": 357,
+   "y": 291,
+   "w": 338,
+   "h": 190
+  },
+  {
+   "id": "1B4z8h0",
+   "ext": "png",
+   "caption": "Technical Issues Screen (base)",
+   "width": 1920,
+   "height": 1080,
+   "x": 357,
+   "y": 495,
+   "w": 372,
+   "h": 209
+  },
+  {
+   "id": "WwpbJgI",
+   "ext": "png",
+   "caption": "Ending Screen (base)",
+   "width": 1920,
+   "height": 1080,
+   "x": 39,
+   "y": 362,
+   "w": 304,
+   "h": 171
+  },
+  {
+   "id": "zph7WrN",
+   "ext": "png",
+   "caption": "Custom Map Banner",
+   "width": 2000,
+   "height": 800,
+   "x": 43,
+   "y": 547,
+   "w": 300,
+   "h": 120
+  },
+  {
+   "id": "SDToLMt",
+   "ext": "png",
+   "caption": "Staff Banner",
+   "width": 1000,
+   "height": 300,
+   "x": 46,
+   "y": 259,
+   "w": 297,
+   "h": 89
+  }
+ ],
+ "harmonia": [
+  {
+   "id": "5srcboP",
+   "ext": "png",
+   "caption": "Coming soon post",
+   "width": 1200,
+   "height": 630,
+   "x": 339,
+   "y": 226,
+   "w": 187,
+   "h": 98
+  },
+  {
+   "id": "yDnsLKZ",
+   "ext": "png",
+   "caption": "Banner",
+   "width": 1200,
+   "height": 630,
+   "x": 339,
+   "y": 72,
+   "w": 267,
+   "h": 140
+  },
+  {
+   "id": "T7whzSR",
+   "ext": "png",
+   "caption": "Announcement",
+   "width": 1200,
+   "height": 630,
+   "x": 540,
+   "y": 226,
+   "w": 187,
+   "h": 98
+  },
+  {
+   "id": "kARko0g",
+   "ext": "png",
+   "caption": "Information Poster (display on 9:16 display standee)",
+   "width": 1920,
+   "height": 3000,
+   "x": 146,
+   "y": 28,
+   "w": 179,
+   "h": 279
+  },
+  {
+   "id": "4eJLXfX",
+   "ext": "png",
+   "caption": "Starting Soon Screen",
+   "width": 1920,
+   "height": 1080,
+   "x": 339,
+   "y": 338,
+   "w": 190,
+   "h": 107
+  },
+  {
+   "id": "OfwnAXc",
+   "ext": "png",
+   "caption": "Gameplay Screen",
+   "width": 1920,
+   "height": 1080,
+   "x": 543,
+   "y": 338,
+   "w": 190,
+   "h": 107
+  },
+  {
+   "id": "YxKcin4",
+   "ext": "png",
+   "caption": "Mappool Screen",
+   "width": 1920,
+   "height": 1080,
+   "x": 339,
+   "y": 459,
+   "w": 181,
+   "h": 102
+  },
+  {
+   "id": "c4cWhRQ",
+   "ext": "png",
+   "caption": "Audiences Screen",
+   "width": 1920,
+   "height": 1080,
+   "x": 534,
+   "y": 459,
+   "w": 181,
+   "h": 102
+  },
+  {
+   "id": "6ulgJ2q",
+   "ext": "png",
+   "caption": "Technical Issues Screen",
+   "width": 1920,
+   "height": 1080,
+   "x": 339,
+   "y": 575,
+   "w": 190,
+   "h": 107
+  },
+  {
+   "id": "vOyzAwJ",
+   "ext": "png",
+   "caption": "Thanks For Watching Screen",
+   "width": 1920,
+   "height": 1080,
+   "x": 543,
+   "y": 575,
+   "w": 190,
+   "h": 107
+  },
+  {
+   "id": "zQPPX3d",
+   "ext": "jpeg",
+   "caption": "Thank You Poster (display on 9:16 display standee)",
+   "width": 2160,
+   "height": 3840,
+   "x": 179,
+   "y": 321,
+   "w": 146,
+   "h": 260
+  },
+  {
+   "id": "yqwVcNn",
+   "ext": "png",
+   "caption": "Staff Card (back)",
+   "width": 540,
+   "height": 860,
+   "x": 123,
+   "y": 595,
+   "w": 94,
+   "h": 149
+  },
+  {
+   "id": "f6fEbFl",
+   "ext": "png",
+   "caption": "Staff Card (front)",
+   "width": 540,
+   "height": 860,
+   "x": 231,
+   "y": 595,
+   "w": 94,
+   "h": 149
+  }
+ ],
+ "aim-cup-3": [
+  {
+   "id": "sDo4I64",
+   "ext": "png",
+   "caption": "Banner",
+   "width": 2048,
+   "height": 800,
+   "x": 310,
+   "y": 120,
+   "w": 456,
+   "h": 178
+  },
+  {
+   "id": "wXFVfYM",
+   "ext": "png",
+   "caption": "Starting Soon Screen",
+   "width": 1920,
+   "height": 1080,
+   "x": 33,
+   "y": 197,
+   "w": 263,
+   "h": 148
+  },
+  {
+   "id": "v8KFIZd",
+   "ext": "png",
+   "caption": "Showcase Screen",
+   "width": 1920,
+   "height": 1080,
+   "x": 310,
+   "y": 312,
+   "w": 252,
+   "h": 142
+  },
+  {
+   "id": "WmOsPAf",
+   "ext": "png",
+   "caption": "Be Right Back Screen",
+   "width": 1920,
+   "height": 1080,
+   "x": 576,
+   "y": 312,
+   "w": 252,
+   "h": 142
+  },
+  {
+   "id": "YmpZCwY",
+   "ext": "png",
+   "caption": "Thanks For Watching Screen",
+   "width": 1920,
+   "height": 1080,
+   "x": 52,
+   "y": 426,
+   "w": 244,
+   "h": 137
+  },
+  {
+   "id": "7o6OCUV",
+   "ext": "png",
+   "caption": "Custom Map Banner",
+   "width": 1000,
+   "height": 400,
+   "x": 28,
+   "y": 76,
+   "w": 268,
+   "h": 107
+  },
+  {
+   "id": "Xw9MJgY",
+   "ext": "png",
+   "caption": "Winner's Banner",
+   "width": 1200,
+   "height": 300,
+   "x": 310,
+   "y": 468,
+   "w": 452,
+   "h": 113
+  },
+  {
+   "id": "Ozket2e",
+   "ext": "png",
+   "caption": "Staff's Banner",
+   "width": 1200,
+   "height": 300,
+   "x": 310,
+   "y": 595,
+   "w": 404,
+   "h": 101
+  },
+  {
+   "id": "E8ITLsD",
+   "ext": "png",
+   "caption": "Badge",
+   "width": 172,
+   "height": 80,
+   "x": 182,
+   "y": 359,
+   "w": 114,
+   "h": 53
+  }
+ ],
+ "narukami": [
+  {
+   "id": "tXUhtFg",
+   "ext": "png",
+   "caption": "Banner",
+   "width": 960,
+   "height": 315,
+   "x": 288,
+   "y": 72,
+   "w": 472,
+   "h": 155
+  },
+  {
+   "id": "swVnaVM",
+   "ext": "png",
+   "caption": "Starting Soon Screen",
+   "width": 1920,
+   "height": 1080,
+   "x": 288,
+   "y": 241,
+   "w": 251,
+   "h": 141
+  },
+  {
+   "id": "kp4Ehha",
+   "ext": "png",
+   "caption": "Be Right Back Screen",
+   "width": 1920,
+   "height": 1080,
+   "x": 553,
+   "y": 241,
+   "w": 251,
+   "h": 141
+  },
+  {
+   "id": "dyZSS7L",
+   "ext": "png",
+   "caption": "Gameplay Screen",
+   "width": 1920,
+   "height": 1080,
+   "x": 288,
+   "y": 396,
+   "w": 251,
+   "h": 141
+  },
+  {
+   "id": "6izv2Ss",
+   "ext": "png",
+   "caption": "Mappool Screen",
+   "width": 1920,
+   "height": 1080,
+   "x": 553,
+   "y": 396,
+   "w": 251,
+   "h": 141
+  },
+  {
+   "id": "PhEhzTO",
+   "ext": "png",
+   "caption": "Audience Screen",
+   "width": 1920,
+   "height": 1080,
+   "x": 288,
+   "y": 551,
+   "w": 313,
+   "h": 176
+  },
+  {
+   "id": "qVV1coV",
+   "ext": "png",
+   "caption": "Staff Card (back)",
+   "width": 638,
+   "height": 1011,
+   "x": 52,
+   "y": 28,
+   "w": 222,
+   "h": 351
+  },
+  {
+   "id": "rVsRWOv",
+   "ext": "png",
+   "caption": "Staff Card (front)",
+   "width": 638,
+   "height": 1011,
+   "x": 52,
+   "y": 393,
+   "w": 222,
+   "h": 351
+  }
+ ]
+}
